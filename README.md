@@ -123,3 +123,5 @@ Collision Detection: Axis-Aligned Bounding Box (AABB) logic for platforms and en
 Game Loop & Animation: requestAnimationFrame.
 
 Audio API: Play, pause, currentTime manipulation.
+
+
