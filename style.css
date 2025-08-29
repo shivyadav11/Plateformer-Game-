@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  /* background: linear-gradient(to top, #87ceeb, #fff); */
+  background: linear-gradient(to top, #87ceeb, #88ce1e);
+   /* background: url("generated-image\ \(34\).png") no-repeat center center fixed; */
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  /* background: #6ab04c; */
+    background: url("generated-image\ \(35\).png") no-repeat center center fixed;
+
+  border: 5px solid rgb(185, 194, 205);
+}
+
+
+/* Controls */
+.controls {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.controls button {
+  font-size: 24px;
+  padding: 15px 25px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.controls button:active {
+  background: #555;
+}
+
